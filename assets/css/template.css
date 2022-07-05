@@ -5,6 +5,9 @@
     overflow-x: hidden;
 }
 
+
+/*.........................................Menu..............................*/
+
 header{
     width: 100vw;
     height: 48px;
@@ -51,7 +54,7 @@ nav ul, nav li{
 
 nav a{
     display: block;
-    padding: 15px;
+    padding: 10px;
     text-transform: uppercase;
     text-decoration: none;
     color: white;
@@ -60,6 +63,9 @@ nav a{
 nav a:hover{
     color: rgb(219, 218, 218);
 }
+
+
+/*.........................................Principal..............................*/
 
 main{
     display: flex;
@@ -93,12 +99,18 @@ main .container .text_pag1 pre{
     margin-bottom: 15px;
 }
 
-main .container .text_pag1 .disponibilidade{
+.disponibilidade{
     font-size: 17px;
     color: rgb(95, 94, 94);
     margin-bottom: 15px;
     font-weight: bold;
 
+}
+
+.botao{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
 }
 
 main .container .img_pag1{
@@ -114,67 +126,220 @@ main .container .img_pag1 img{
     height: 70%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*.........................................Seção 1..............................*/
 
 .section1{
     background-image: url(../imagens/fundo1.png);
-    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
     height: 40rem;
     background-color: rgba(114, 204, 118, 0.35);
     display: flex;
     justify-content: center;
+
     
 }
 
 .section1 .container{
+    width: 1200px;
     display: flex;
     justify-content: center;
-    height: 100%;
+    align-items: center;
 }
 
 .section1 .container .img_pag1{
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .section1 .container .text_pag1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1 .container .text_pag1 h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.section1 .container .text_pag1 pre{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+/*.........................................Seção 2..............................*/
+
+
+.section2{
+    background-image: url(../imagens/fundo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 40rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 .container{
+    width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.section2{
-    background-image: url(../imagens/fundo2.png);
-    background-position: cover;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 40rem;
-    background-color: white;
+.section2 .container .img_pag2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.section2 .container .text_pag2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section2 .container .text_pag2 h1{
+    font-size: 70px;
+    margin-bottom: 15px;
+}
+
+.section2 .container .text_pag2 pre{
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+
+
+/*.........................................Section3..............................*/
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 h1{
+    font-size: 60px;
+    margin: 30px 0 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section3 .container{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+
+.section3 .container .img1{
+    width: 590px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+    background-color: rgba(114, 204, 118, 0.35);
+}
+
+
+.section3 .container .img1 h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.section3 .container .img1 p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+/*.........................................Rodapé..............................*/
 
 
 footer{
     width: 100vw;
-    height: 200px;
-    background-color: #3e39399f;
+    height: auto;
+    background-color: #3E3939;
+    font-family: FontAwesome;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer .container{
+    width: 1200px;
+    background-color: #a79d9d10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .container .text-footer{
+    width: auto;
+}
+
+footer .container .text-footer h3{
+    padding-top: 20px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer .container .incone{
+    margin: 10px;
+    padding: 10px;
+    width: auto;
+}
+
+
+.fa-facebook {
+    font-size: 50px;
+    font-style: normal;
+    margin-right: 10px;
+}
+
+.fa-instagram{
+    font-size: 50px;
+    font-style: normal;
+    margin-right: 10px;
+}
+
+.fa-whatsapp {
+    font-size: 50px;
+    font-style: normal;
 }

@@ -1,1 +1,1 @@
-Site de amigurumi para mainha
+Site amigurumi para minha mãe 
